@@ -1,5 +1,8 @@
 var rows = ["Zero", "One", "Two", "Three", "Four", "Five", "Six", "Seven", "Eight"];
 var numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+/*get a random number from an array*/
+var randomItem = numbers[Math.floor(Math.random() * numbers.length)];
+console.log("this is my new way of getting a random number: " + randomItem);
 /*var rowZero = [];*/
 var rowOne = [];
 var rowTwo = [];
